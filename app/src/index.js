@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Geo from "./components/geo/geo";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<div>テスト</div>);
+root.render(<Geo></Geo>);
